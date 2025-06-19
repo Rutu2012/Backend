@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 // Decrypt the data 
 app.use(cors({
-    origin: 'http://localhost:5174',
+    origin: 'https://fontend-sable.vercel.app',
 }))
 // allow requests from 5173 port
 
